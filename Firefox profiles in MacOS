@@ -1,0 +1,9 @@
+#Open Terminal in MacOS
+/Applications/Firefox.app/Contents/MacOS/firefox -ProfileManager
+
+#Set your Firefox profiles 
+#Name the profiles and use the names in the script below
+
+#Search for "Script" under Libraries in MacOS 
+#Run Shell Script in Mac 
+"nohup /Applications/Firefox.app/Contents/MacOS/firefox -ProfileManager\”Replace with name of the firefox profile you have set above \” --no-remote > /dev/null 2>&1 &"
